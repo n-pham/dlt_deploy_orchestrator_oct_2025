@@ -1,0 +1,10 @@
+[project]
+name = "dlt_deploy_orchestrator_oct_2025"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "apache-airflow[async,postgres,google]==2.11.0",
+    "dlt[duckdb,cli]>=1.17.1",
+]
